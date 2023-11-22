@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+:root {
+  font-size: 62.5%;
+
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+  display: grid;
+  place-content: center;
+
+  font-size: 16px;
+  background: #d7e0f3;
+
+  padding: 10rem;
+
+}
+
+.page {
+  width: 35rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  gap: 2rem;
+
+  padding: 2rem;
+  border-radius: 1.5rem;
+
+  
+
+  background: white;
+}
+
+.page img {
+  width: 100%;
+
+  border-radius: 1.5rem;
+  
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.info h1 {
+  
+  color: black;
+
+}
+
+.info p {
+  color: gray;
+  
+
+ 
+}
